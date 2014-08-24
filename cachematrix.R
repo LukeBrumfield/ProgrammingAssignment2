@@ -2,7 +2,7 @@
 ## Coursera R Programming | Programming Assignment 2
 
 ## Caches the inverse of a matrix to avoid wasted computation time.
-
+## Uses format provided in makeVector
 makeCacheMatrix <- function(x = matrix()) {
   
   m <- NULL
