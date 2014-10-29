@@ -24,8 +24,6 @@ makeCacheMatrix <- function(x = matrix()) {
     m
   }
   ##Returns list of functions
-  ##Usage z$get(), etc
-  ##WARNING calling set() not recommended
   list(set = set, get = get,
        setinverse = setinverse,
        getinverse = getinverse)
