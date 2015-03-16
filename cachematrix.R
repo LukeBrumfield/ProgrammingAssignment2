@@ -8,7 +8,6 @@
 makeCacheMatrix <- function(x = matrix()) {
   
   m <- NULL
-  ##WARNING if using z$set(matrix), will clear calculated inverse
   set <- function(y) {
     x <<- y
     m <<- NULL
