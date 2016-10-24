@@ -1,8 +1,7 @@
 makeVector <- function(x = numeric()) {      # input x will be a vector
   
   m <- NULL    #  m will store our 'mean' and it's reset to NULL every 
-  #    time makeVector is called
-  
+  #  time makeVector is called
   #  note these next three functions are not run when makeVector is called.
   #   instead, they will be used by cachemean() to get values for x or for
   #   m (mean) and for setting the mean.  These are usually called object 'methods'
